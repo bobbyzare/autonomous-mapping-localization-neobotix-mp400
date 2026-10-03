@@ -1,0 +1,9 @@
+image: neo_track1.pgm
+resolution: 0.050000
+origin: [-100.000000, -100.000000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
+ros2 launch nav2_bringup localization_launch.py \
+>   map:=/home/user/simulation2_ws/src/neobotix_ros2/neo_simulation2/maps/my_map.yaml \
